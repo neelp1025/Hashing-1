@@ -1,7 +1,7 @@
 import java.util.*;
 
 //Time Complexity: O(n) where n is the length of the string assuming that both strings are same length since we have to iterate through each character
-//Space Complexity: O(n) where we store the mapping of each character from s to t and t to s into its own maps
+//Space Complexity: O(1) it will have 26 entries max
 //Did this code successfully run on Leetcode : Yes
 
 /**
