@@ -1,7 +1,7 @@
 import java.util.*;
 
 //Time Complexity: O(nk) where n is the length of the words in the string since we have to iterate through each string to create the hash for each string with average k length
-//Space Complexity: O(n + m) where m is the number of words
+//Space Complexity: O(n) since the map will have the n entries max
 //Did this code successfully run on Leetcode : Yes
 
 /**
