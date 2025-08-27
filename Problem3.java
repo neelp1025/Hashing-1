@@ -53,10 +53,10 @@ class Problem3 {
 
 
     public static void main(String[] args) {
-        System.out.println(isPatternMatching("abba", "dog cat cat dog"));
-        System.out.println(isPatternMatching("abba", "dog cat act dog")); // making sure hash function is correct for anagram
-        System.out.println(isPatternMatching("abba", "dog cat cat fish"));
-        System.out.println(isPatternMatching("aaaa", "dog cat cat dog"));
-        System.out.println(isPatternMatching("abba", "dog dog dog dog"));
+        System.out.println(isPatternMatching("abba", "dog cat cat dog")); //true
+        System.out.println(isPatternMatching("abba", "dog cat act dog")); //false- making sure hash function is correct for anagram
+        System.out.println(isPatternMatching("abba", "dog cat cat fish")); //false
+        System.out.println(isPatternMatching("aaaa", "dog cat cat dog")); //false
+        System.out.println(isPatternMatching("abba", "dog dog dog dog")); //false
     }
 }
